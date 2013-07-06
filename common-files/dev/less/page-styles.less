@@ -1,10 +1,12 @@
 body{
     background: @mainColor;
+    min-width: 960px;
     margin: 0;
     font-family: "Open Sans", Arial, Verdana, sans-serif;
     font-size: @baseFontSize;
     line-height: @baseLineHeight;
     color: lighten(@mainColor, 30%);
+    .selection(lighten(@mainColor, 30%), darken(@mainColorDark, 10%));
 }
 
 //link
